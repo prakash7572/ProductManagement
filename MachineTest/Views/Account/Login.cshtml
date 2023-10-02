@@ -1,0 +1,45 @@
+﻿@model MachineTest.Models.LoginVM
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Master/_Master.cshtml";
+}
+@using (Html.BeginForm("LoginAuth", "Account", FormMethod.Post))
+{
+    <div class="bodycont">
+        <div id="wrap2" style="min-height:530px;">
+            <div class="login-cont">
+                <h1 class="loginhd">Login Here</h1>
+                <span class="text-danger" style="color:red">@TempData["ERROR"]</span>
+                <div class="login-row">
+                    <div class="loginname">Email</div>
+                    <div class="admintxtfld-box">
+                        @*@Html.TextBoxFor(x => x.Email)*@
+                        <input type="text" name="Email">
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="login-row">
+                    <div class="loginname">Password</div>
+                    <div class="admintxtfld-box">
+                        @*@Html.TextBoxFor(x => x.Password)*@
+                        <input type="password" name="Password">
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+                <div class="clear"></div>
+                <div class="contact-row" style="width:325px;">
+                    <div style="background:none; border:none; margin-top:15px;">
+                        <a href="admin.html" style="text-decoration:none;">
+                            <input type="submit" class="btn" value="Login">
+                        </a><br>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+}

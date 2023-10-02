@@ -1,0 +1,64 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Contant/_Master.cshtml";
+}
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<link href="~/Content/all.min.css" rel="stylesheet" />
+<script src="~/JS/Category.js"></script>
+
+<div id="wrap">
+    <form id="formCategory" onsubmit="return formSumbitAdd()">
+        <div class="clear" style="height:5px;"></div>
+        @*<input type="hidden" id="ID" />*@
+        <div id="wrap2">
+            <h1>Add Category</h1>
+            <br>
+            <div class="form-raw">
+                <div class="form-name">Category Name</div>
+                <div class="form-txtfld">
+                    <input type="text" id="Category" name="CategoryName" class="req-field"><div class="clearfix"></div>
+                    <span id="msg"></span>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="form-raw">
+            <div class="form-name">Active</div>
+            <div class="form-txtfld">
+                <input type="checkbox" id="Active" name="Status">
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="form-raw">
+            <div class="form-name">&nbsp;</div>
+            <div class="form-txtfld" style="width:290px;">
+                <input type="submit" class="btn" value="Submit">
+            </div>
+        </div>
+    </form>
+</div>
+
+<div class="clear">&nbsp;</div>
+<div id="wrap3">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="admintable">
+        <thead>
+            <tr>
+                <th width="59" align="left" valign="middle">Sr.No.</th>
+                <th width="752" align="left" valign="middle">Category Name</th>
+                <th width="77" align="left" valign="middle">Status</th>
+                <th width="54" align="left" valign="middle">Edit</th>
+                <th width="71" align="left" valign="middle">Remove</th>
+            </tr>
+        </thead>
+        <tbody id="tbleBodyContent"></tbody>
+        @*<tr>
+                <td align="left" valign="top">1</td>
+                <td align="left" valign="top">Lorem Lipsumis text.</td>
+                <td align="left" valign="top"><strong>Active</strong></td>
+                <td align="left" valign="top"><a href="#">Edit</a></td>
+                <td align="center" valign="top"><a href="#"><img src="~/Assests/images/delete.gif" alt="" width="25" height="25" border="0" align="absmiddle" /></a></td>
+            </tr>*@
+    </table>
+    <div class="clear">&nbsp;</div>
+</div>

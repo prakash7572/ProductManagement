@@ -1,0 +1,76 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Contant/_Master.cshtml";
+}
+
+<link href="~/Content/bootstrap.css" rel="stylesheet" />
+<link href="~/Content/all.min.css" rel="stylesheet" />
+<script src="~/JS/SubCategory.js"></script>
+
+<form id="FromSubCategory" onsubmit="return formSumbitAdd()">
+    <div id="wrap">
+        <div class="clear" style="height:5px;"></div>
+        <div id="wrap2">
+            <h1>Add Sub Category</h1>
+            <br>
+            <div class="form-raw">
+                <div class="form-name">Select Category</div>
+                <div class="form-txtfld">
+                    <select name="CategoryName" id="Category">
+                        <option>Select CategoryName</option>
+                    </select>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="form-raw">
+                <div class="form-name">Add Sub Category</div>
+                <div class="form-txtfld">
+                    <input type="text" name="SubCategoryName" id="SubCategory"><br />
+                    <span id="msg"></span>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="form-raw">
+            <div class="form-name">Active</div>
+            <div class="form-txtfld">
+                <input type="checkbox" id="Active" name="Status">
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="form-raw">
+            <div class="form-name">&nbsp;</div>
+            <div class="form-txtfld" style="width:290px;">
+                <input type="submit" class="btn" value="Submit">
+            </div>
+        </div>
+    </div>
+</form>
+
+<div class="clear">&nbsp;</div>
+<div id="wrap3">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" class="admintable">
+        <thead>
+            <tr>
+                <th width="59" align="left" valign="middle">Sr.No.</th>
+                <th width="752" align="left" valign="middle">Category Name</th>
+                <th width="752" align="left" valign="middle">Sub Category Name</th>
+                <th width="77" align="left" valign="middle">Status</th>
+                <th width="54" align="left" valign="middle">Edit</th>
+                <th width="71" align="left" valign="middle">Remove</th>
+            </tr>
+        </thead>
+        <tbody id="tbleBodyContent"></tbody>
+        @*<tr>
+            <td align="left" valign="top">1</td>
+            <td align="left" valign="top">Lorem Lipsumis text.</td>
+            <td align="left" valign="top">Sub category</td>
+            <td align="left" valign="top"><strong>Active</strong></td>
+            <td align="left" valign="top"><a href="#">Edit</a></td>
+            <td align="center" valign="top"><a href="#"><img src="~/Assests/images/icon-bin.jpg" alt="" width="25" height="25" border="0"  /></a></td>
+        </tr>*@
+    </table>
+    <div class="clear">&nbsp;</div>
+</div>
+<div class="clear"></div>

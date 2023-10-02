@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/all.min.css" rel="stylesheet" />
+    <script src="~/Content/jquery-3.7.0.min.js"></script>
+    <link href="~/Assests/menu/quickmenu0.css" rel="stylesheet" />
+    <script src="~/Assests/menu/quickmenu0.js"></script>
+    <link href="~/Assests/css/style.css" rel="stylesheet" />
+
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div>
+        @Html.Partial("~/Views/Shared/Contant/_Header.cshtml")
+        @RenderBody()
+        @Html.Partial("~/Views/Shared/Contant/_Footer.cshtml")
+    </div>
+</body>
+</html>
