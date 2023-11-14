@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Web;
 
-namespace MachineTest.Models
+namespace ProductManagement.Models
 {
     [Table("SubCategorys")]
     public class SubCategory

@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace MachineTest
+namespace ProductManagement
 {
     public class FilterConfig
     {

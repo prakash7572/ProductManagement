@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.ComponentModel.DataAnnotations;
 
-namespace MachineTest.Models
+namespace ProductManagement.Models
 {
     public class Profile
     {

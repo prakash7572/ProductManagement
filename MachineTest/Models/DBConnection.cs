@@ -4,7 +4,7 @@ using System.Data.Entity;
 using System.Linq;
 using System.Web;
 
-namespace MachineTest.Models
+namespace ProductManagement.Models
 {
     public class DBConnection:DbContext
     {
