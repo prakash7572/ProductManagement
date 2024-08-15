@@ -1,8 +1,8 @@
 **ProductManagement:**
 
-          Welcome to the ProductManagement project! This project is designed to manage products, categories, and 
-          subcategories efficiently.It provides a structured approach to organizing and maintaining product
-          information for various use cases.
+          Welcome to the ProductManagement project! This project is designed to manage products,categories,
+          and subcategories efficiently.It provides a structured approach to organizing and maintaining
+          product information for various use cases.
 
 **Features:**
 
@@ -21,7 +21,8 @@
           HTML: Provides the structure and content of web pages.
           CSS: Manages styling and layout of the web pages.
           Bootstrap: Offers responsive design and pre-built UI components.
-          ASP.NET MVC: A framework for building web applications with a Model-View-Controller architecture.
+          ASP.NET MVC: A framework for building web applications with a 
+          Model-View-Controller architecture.
           Entity Framework: An Object-Relational Mapper (ORM) for handling database operations.
           jQuery: Simplifies DOM manipulation and event handling.
           AJAX: Enables asynchronous data loading for a smoother user experience.
