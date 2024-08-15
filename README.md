@@ -7,12 +7,10 @@ Welcome to the **ProductManagement** project! This application is designed to ef
 - **Product Management**: Add, update, delete, and view products.
 - **Category Management**: Create, edit, and manage product categories.
 - **Subcategory Management**: Organize products within categories by defining subcategories.
-
-## User Authentication
-
-- **Login**: Securely authenticate users to access the application.
-- **Logout**: Allow users to securely exit their sessions.
-- **Change Password**: Enable users to update their passwords for enhanced security.
+- **Authentication**: 
+  - **Login**: Secure access to the system for authorized users.
+  - **Logout**: End user sessions and secure the application.
+  - **Change Password**: Allow users to update their passwords.
 
 ## Technologies Used
 
