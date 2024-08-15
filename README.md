@@ -20,6 +20,7 @@ Welcome to the **ProductManagement** project! This application is designed to ef
 - **ASP.NET MVC**: A framework for building web applications with a Model-View-Controller architecture.
 - **Entity Framework**: An Object-Relational Mapper (ORM) for handling database operations.
 - **jQuery**: Simplifies DOM manipulation and event handling.
+- **jQuery**: Simplifies DOM manipulation and event handling.
 - **AJAX**: Enables asynchronous data loading for a smoother user experience.
 - **C#**: The programming language used for server-side logic and application development.
 - **SQL Server**: The backend database system used for storing and managing data.
