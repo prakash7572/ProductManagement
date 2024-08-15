@@ -1,8 +1,8 @@
 **ProductManagement:**
 
-          Welcome to the ProductManagement project! This project is designed to manage products,categories,
-          and subcategories efficiently.It provides a structured approach to organizing and maintaining
-          product information for various use cases.
+          Welcome to the ProductManagement project! This project is designed to manage products,
+          categories,and subcategories efficiently.It provides a structured approach to organizing and
+          maintaining product information for various use cases.
 
 **Features:**
 
